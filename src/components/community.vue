@@ -2,9 +2,9 @@
   <div id='community'>
     <gridNav></gridNav>
     <div class="description-wrapper">
-      <p>
-        One of my favorite parts of being a developer is the community. Since day one of starting my journy to this career I have had so many helpful, friendly people to turn to. Then, I started to want to be one of those people. I have enjoyed a wide variety of community events over the last nine months. Here are some that I took a more active roll in or got something particularly valuable out of.
-      </p>
+      <!-- <p>
+        One of my favorite parts of my job is the community. Since day one of my journy to this career I have had so many helpful, friendly people to turn to. Then, I started to want to be one of those people for new students. I have enjoyed a wide variety of community events as I went. These are some that I took a more active roll in or got something particularly valuable out of.
+      </p> -->
     </div>
     <div class="card-list-wrapper">
       <div v-for="item in communityList" :key="communityList.title">
@@ -41,8 +41,8 @@ export default {
   }
   .card-list-wrapper {
     display: grid;
-    grid-gap: 25px;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin: 20px 50px 0 50px;
   }
 </style>

@@ -12,8 +12,8 @@ export default [
         link: '',
       },
       {
-      name: 'Gist',
-      link: '',
+        name: 'Gist',
+        link: '',
       }
     ]
   },

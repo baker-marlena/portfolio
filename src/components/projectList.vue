@@ -9,6 +9,7 @@
         </div>
       </div>
     </div>
+    <footerBar></footerBar>
   </div>
 </template>
 
@@ -17,11 +18,12 @@ import gridNav from './gridNav';
 import project from './project';
 import projectCard from './projectCard';
 import projects from '../lib/projects';
+import footerBar from './footerBar';
 
 export default {
   name: 'projectList',
   components: {
-    gridNav, project, projectCard,
+    gridNav, project, projectCard, footerBar,
   },
   data() {
     return {
@@ -47,8 +49,8 @@ export default {
 <style scoped>
   .project-list-wrapper {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin: 20px 50px 0 50px;
   }
 </style>

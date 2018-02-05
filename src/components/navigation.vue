@@ -2,7 +2,13 @@
   <div id="navigation">
     <header class=" left-space clearfix vertical-padding">
           <h1 class="logo xlarge-push-left large-push-left">
-          <router-link class="align-right resume-link" :to="{ name: 'home'}">Marlena Baker</router-link><br /><small>Web Developer <i class="fa fa-times" aria-hidden="true"></i> Project Manager</small>
+          <router-link class="align-right resume-link" :to="{ name: 'home'}">Marlena Baker</router-link><br /><small>Web Developer <i class="fa fa-times" aria-hidden="true"></i> <div class="slidingVertical">
+      <span>Amazing.</span>
+      <span>Beautiful.</span>
+      <span>Cute.</span>
+      <span>Delightful.</span>
+      <span>Emotional.</span>
+    </div></small>
         </h1>
       <nav class="ink-navigation xlarge-push-right large-push-right half-top-space">
           <ul class="menu horizontal">
@@ -63,4 +69,6 @@ export default {
   .hidden {
     display: none;
   }
+
+
 </style>

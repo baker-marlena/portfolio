@@ -1,6 +1,6 @@
 <template>
   <div id='footerBar'>
-    <legal><small>Copyright 2018 Marlena Baker</small></legal>
+    <small>Copyright 2018 Marlena Baker</small>
   </div>
 </template>
 <script>

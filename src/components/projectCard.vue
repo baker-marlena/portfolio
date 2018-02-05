@@ -50,6 +50,13 @@ export default {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 15px;
+  border-top: 1px solid darkgrey;
+  border-radius: 5px;
+  border-bottom: 1px solid darkgrey;
+  border-left:5px double #71D6E4;
+  border-right: 5px double #71D6E4;
+  padding: 10px;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3); */
 }
 .projectImageWrapper {
   min-height: 200px;

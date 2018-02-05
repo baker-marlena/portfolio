@@ -6,17 +6,20 @@
     </div>
     <hr />
     <pdf class="bottom-space" src="../../static/Marlena Baker Resume-site.pdf"></pdf>
+    <footerBar></footerBar>
   </div>
 </template>
 <script>
 import pdf from 'vue-pdf';
 import gridNav from './gridNav';
+import footerBar from './footerBar';
 
 export default {
   name: 'resume',
   components: {
     gridNav,
     pdf,
+    footerBar,
   },
   data: () => ({
     resumeURL: '',
