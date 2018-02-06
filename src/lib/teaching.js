@@ -9,28 +9,25 @@ export default [
     resources: [
       {
         name: 'See Video',
-        link: '',
+        link: 'https://youtu.be/7Pj0llpkbV8',
       },
       {
         name: 'Gist',
-        link: '',
+        link: 'https://gist.github.com/baker-marlena/4bfe18e93a15c5cecf907e9a8f880495',
       }
     ]
   },
   {
-    title: 'Firebase Realtime Database',
-    description: 'Lignthing talk describing the set up and application of a realtime database through Firebase.',
-    embed: '<iframe src="//slides.com/marlenabaker/deck-2/embed" width="400" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
-    resources: [{
-      name: 'See Video',
-      link: '',
-    }] },
+    title: 'Knex Seeds and Migrations',
+    description: 'The first step to getting your database set up is to define the scema and seed it with some dummy data for development.',
+    embed: '<iframe width="400" height="315" src="https://www.youtube.com/embed/hp9JOInsDOs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+    objectives: ['Examine a database with psql', 'Generate Knex seeds and migrations', 'Apply seeds and migrations to your database']
+  },
   {
-    title: 'Express Servers',
-    description: '',
-    objectives: ['', '', ''],
-    embed: '',
-    resources: []
+    title: 'Fetch Errors and Trouble Shooting',
+    description: "So much can go wrong with fetch. It's important to have good error handling and troubleshooting skills.",
+    objectives: ['Locate errors in the code based on error messages', 'Identify how and where error handling should be implemented', 'Evaluate a Fetch request with error handling'],
+    embed: '<iframe width="400" height="315" src="https://www.youtube.com/embed/hhS3myJbaMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
   },
   {
     title: 'Git and Github Assessments',
@@ -39,6 +36,12 @@ export default [
       name: 'Random Task Generator',
       link: 'https://random-task-generator.firebaseapp.com'
     }]
+  },
+  {
+    title: 'User Stories',
+    description: 'User stories are an essential part of determining your features with user needs in mind.',
+    embed: '<iframe width="400" height="315" src="https://www.youtube.com/embed/ExckNJQuSGo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+    objectives: ['Write user stories', 'Identify epic stories', 'Generate acceptance criteria']
   },
   // { title: '', description: '', image: '', hasImage: false, link: '', embed: '', resources: [] },
 ];

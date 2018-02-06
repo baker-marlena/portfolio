@@ -5,12 +5,14 @@
       <h1>
         <router-link class="nav-link" :to="{ name: 'home'}">Marlena Baker</router-link>
       </h1>
-      <small>Web Developer <i class="fa fa-times" aria-hidden="true"></i> <p class="slidingVertical">
-        <span>Project Manager</span>
-        <span>Educator</span>
-        <span>Designer</span>
-        <span>Entrepreneur</span>
-        </p></small>
+      <div class='subhead-wrapper'>
+        <p>Web Developer <i class="fa fa-times" aria-hidden="true"></i></p> <p class="slidingVertical">
+          <span>Project Manager</span>
+          <span>Educator</span>
+          <span>Designer</span>
+          <span>Entrepreneur</span>
+          </p>
+        </div>
     </div>
     <div class='icon-wrapper'>
       <ul class="icon-list-style">
@@ -72,8 +74,22 @@ export default {
     height: 50px;
     width: auto;
   }
+  .logo {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
   h1 {
     color: #71D6E4;
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+    display: inline;
+  }
+  .subhead-wrapper {
+    text-align: center;
+    margin-left: -125px;
   }
   small {
     color:black;
