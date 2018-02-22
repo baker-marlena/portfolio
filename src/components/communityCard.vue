@@ -42,9 +42,10 @@ export default {
     border-top: 1px solid darkgrey;
     border-radius: 5px;
     border-bottom: 1px solid darkgrey;
-    border-left:5px double #71D6E4;
-    border-right: 5px double #71D6E4;
-    padding: 10px;
+    border-left:5px double #1e9099;
+    border-right: 5px double #1e9099;
+    padding:20px;
+    height: 100%
     /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3); */
   }
   .cardImageWrapper {
@@ -63,7 +64,7 @@ export default {
     height: auto;
   }
   .projectTitle {
-    color: #71D6E4;
+    color: #1e9099;
   }
   ul {
     text-align: left;

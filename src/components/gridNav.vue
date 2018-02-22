@@ -16,10 +16,10 @@
     </div>
     <div class='icon-wrapper'>
       <ul class="icon-list-style">
-        <li><a href="mailto:baker.marlena@gmail.com"><img class="social-icon" src="../../static/social/email.png" alt="email"></a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/marlenabaker"><img class="social-icon" src="../../static/social/linkedin.png" alt="linkedin"></a></li>
-        <li><a target="_blank" href="https://github.com/baker-marlena"><img class="social-icon" src="../../static/social/github.png" alt="github"></a></li>
-        <li><a target="_blank" href="https://twitter.com/marlena_baker2"><img class="social-icon" src="../../static/social/twitter.png" alt="twitter"></a></li>
+        <li><a href="mailto:baker.marlena@gmail.com"><i class="fas fa-3x fa-envelope"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/marlenabaker"><i class="fab fa-3x fa-linkedin-in"></i></a></li>
+        <li><a target="_blank" href="https://github.com/baker-marlena"><i class="fab fa-3x fa-github"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/marlena_baker2"><i class="fab fa-3x fa-twitter"></i></a></li>
       </ul>
     </div>
   </div>
@@ -73,6 +73,7 @@ export default {
   .social-icon {
     height: 50px;
     width: auto;
+    color: #1e9099 !important;
   }
   .logo {
     display: flex;
@@ -80,7 +81,7 @@ export default {
     justify-content: center;
   }
   h1 {
-    color: #71D6E4;
+    color: #b14280;
     font-size: 3rem;
   }
   p {
@@ -115,12 +116,12 @@ export default {
     display: none;
   }
   .nav-link{
-    color: #71D6E4;
+    color: #b14280;
     text-decoration: none;
   }
   .nav-link:hover{
-    text-decoration: none;
-    color: #325E64;
+    text-decoration: underline;
+    /* color: #1e9099; */
   }
 
   /* Animation */
