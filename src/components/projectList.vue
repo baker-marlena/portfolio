@@ -35,9 +35,10 @@ export default {
     /*eslint-disable*/
     displayProjects() {
       if (this.search) {
-        return this.projects.filter(projectData =>
-          projectData.tech.includes(this.search),
-        ) }
+        return this.projects.filter(projectData => {
+          return projectData.tech.includes(this.search)
+        })
+      }
       else {
         return this.projects;
       }

@@ -73,6 +73,8 @@ export default {
   .social-icon {
     height: 50px;
     width: auto;
+  }
+  .icon-list-style a {
     color: #1e9099 !important;
   }
   .logo {

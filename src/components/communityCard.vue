@@ -4,7 +4,8 @@
       <img :src="communityData.image" :alt="communityData.title" />
     </div>
     <div>
-      <h3 class="projectTitle">{{communityData.title}}</h3>
+      <a v-if="communityData.url" :href="communityData.url"><h3 class="projectTitle">{{communityData.title}}</h3></a>
+      <h3 v-if="!communityData.url" class="projectTitle">{{communityData.title}}</h3>
       <p>
         {{communityData.description}}
       </p>
