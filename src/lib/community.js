@@ -26,7 +26,7 @@ export default [
   {
     title: 'Startup Weekend Women Denver',
     url: 'http://communities.techstars.com/usa/denver/startup-weekend/12189',
-    description: '',
+    description: 'Starup Weekend Women was a starup weekend in that it was a weekend long event where participants pitch ideas, form teams, produce as much of a business plan and product as they can, and then present their startups at the end. What was neat about this one is that it was all about female entrepreneurs. Some really great ideas came out of it, and I got to work on one for helping new entrepreneurs. It was a very tech heavy experience for me, but I got a good look at the business nameing process and some insight into trademarks and trade names. By the end, along with another developer, we had a full stack app that was a working prototype.',
     image: '',
   },
 ];

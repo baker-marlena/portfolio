@@ -2,10 +2,10 @@
   <div id="resume">
     <gridNav></gridNav>
     <div>
-      <h5><a class="link-color" href="../../static/Marlena Baker Resume-site.pdf" download="../../static/Marlena Baker Resume-site.pdf">Download Resume</a></h5>
+      <h5><a class="link-color" href="../../static/Marlena_Baker_Resume.pdf" download="../../static/Marlena Baker Resume-site.pdf">Download Resume</a></h5>
     </div>
     <hr />
-    <pdf class="bottom-space" src="../../static/Marlena Baker Resume-site.pdf"></pdf>
+    <pdf class="bottom-space" src="../../static/Marlena_Baker_Resume.pdf"></pdf>
     <footerBar></footerBar>
   </div>
 </template>
@@ -28,7 +28,10 @@ export default {
 </script>
 <style scoped>
 .link-color {
-  color: #71D6E4;
+  color: #1e9099;
+}
+.link-color:hover {
+  text-decoration: underline;
 }
 hr {
     display: block;

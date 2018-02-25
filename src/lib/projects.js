@@ -49,7 +49,7 @@ export default [
     github_url: 'https://github.com/Mark-Clarity',
     url: 'http://markclarity.surge.sh/#/',
     img_url: '',
-    logo_url: '',
+    logo_url: '../../static/markclarity/Screen Shot 2018-02-24 at 7.48.26 PM.png',
     description: 'MarkClarity is a website that provides quick and easy trademark searching for entrepreneurs who are in the ideation stage. MarkClarity checks state and federal risk, providing easy risk assesment for business names. Over the course of the weekend I put together the frontend of our prototype application, which was a functioning full stack application after two days of work. It pulled real data from the Colorado Secretary of State and a federal trademark search API. I also wrote the logic that determined, in simple terms, if the name carried a risk.',
     tech: ['Vue.js', 'vue-material', 'Python'],
   },
