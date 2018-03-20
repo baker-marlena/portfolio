@@ -1,11 +1,10 @@
 <template>
   <div id="resume">
     <gridNav></gridNav>
-    <div>
-      <h5><a class="link-color" href="../../static/Marlena_Baker_Resume.pdf" download="../../static/Marlena Baker Resume-site.pdf">Download Resume</a></h5>
+    <div class="download-wrapper">
+      <h5><a class="link-color" href="../../static/Marlena-Baker-Resume.pdf" download="../../static/Marlena Baker Resume-site.pdf">Download Resume</a></h5>
     </div>
-    <hr />
-    <pdf class="bottom-space" src="../../static/Marlena_Baker_Resume.pdf"></pdf>
+    <pdf class="bottom-space pdf-wrapper" src="../../static/Marlena-Baker-Resume.pdf"></pdf>
     <footerBar></footerBar>
   </div>
 </template>
@@ -27,6 +26,7 @@ export default {
 };
 </script>
 <style scoped>
+
 .link-color {
   color: #1e9099;
 }
@@ -40,5 +40,10 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+}
+.pdf-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid darkgrey;
 }
 </style>

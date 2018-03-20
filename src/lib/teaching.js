@@ -19,7 +19,7 @@ export default [
   },
   {
     title: 'Knex Seeds and Migrations',
-    description: 'The first step to getting your database set up is to define the scema and seed it with some dummy data for development.',
+    description: 'The first step to getting your database set up is to define the schema and seed it with some dummy data for development.',
     embed: '<iframe width="400" height="315" src="https://www.youtube.com/embed/hp9JOInsDOs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
     objectives: ['Examine a database with psql', 'Generate Knex seeds and migrations', 'Apply seeds and migrations to your database']
   },
@@ -31,7 +31,7 @@ export default [
   },
   {
     title: 'Git and Github Assessments',
-    description: 'In addition to teaching lessons, I was resposible for writing assesments according to the standards necessary for students to meet before graduating from the Galvanize WDI program. In particular, I wrote the assessments for using git and github for version control and then later for using them for collaboration. Each assessment included three drills for which I needed to: determine a deliverable that would allow us to measure completion of a drill, write instructions for the students, generate resources for the drill, write a grading rubric, and provide a solutions branch for reference. For the collaborating with git drill I produced an app that generated random tasks for them to complete to simulate a collabrative development project.',
+    description: 'In addition to teaching lessons, I was responsible for writing assessments according to the standards necessary for students to meet before graduating from the Galvanize WDI program. In particular, I wrote the assessments for using git and Github for version control and then later for using them for collaboration. Each assessment included three drills for which I needed to: determine a deliverable that would allow us to measure completion of a drill, write instructions for the students, generate resources for the drill, write a grading rubric, and provide a solutions branch for reference. For the collaborating with git drill I produced an app that generated random tasks for them to complete to simulate a collaborative development project.',
     resources: [{
       name: 'Random Task Generator',
       link: 'https://random-task-generator.firebaseapp.com'

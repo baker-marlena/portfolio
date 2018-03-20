@@ -2,19 +2,19 @@ export default [
   {
     title: 'Denver Vue.js Meetup',
     url: 'https://www.meetup.com/Denver-Vue-js-Meetup',
-    description: 'The Denver Vue.js Meetup is a monthly meetup of the local Vue.js community. I have helped organize it since September, 2017. I have hosted several meetups, including project nights, workshops, and talks. I set the schedule, found speakers, facilitated the networking and news, and provided food for the meetup. I have given one talk at the Denver Vue.js meetup, about "This" in Vue.',
+    description: 'The Denver Vue.js Meetup is a monthly meetup of the local Vue.js community. I have helped organize it since September, 2017. I have hosted several meetups, including project nights, workshops, and talks. I set the schedule, found speakers, facilitated the networking and news, and provided food for the meetup. I have given one talk at the Denver Vue.js meetup, about “this" in Vue.',
     image: '../../static/community/Screen Shot 2017-12-12 at 10.22.03 PM.png',
   },
   {
     title: 'Learn to Code Colorado',
     url: 'https://www.meetup.com/learn-to-code-colorado/',
-    description: 'Learn to Code is an event put on by Galvanize that provides basic lessons in HTML, CSS, and JavaScript for free. As a student and since becoming a resident instructor I have helped out with several Learn to Code events. The cirriculum is self-paced, so participating as a teaching assistant entails: facilitating a group working on one of the three subjects, answering questions, leading small breakout lessons, and mentoring participants who need additional help.',
+    description: 'Learn to Code is an event put on by Galvanize that provides basic lessons in HTML, CSS, and JavaScript for free. As a student and since becoming a resident instructor I have helped out with several Learn to Code events. The curriculum is self-paced, so participating as a teaching assistant entails: facilitating a group working on one of the three subjects, answering questions, leading small breakout lessons, and mentoring participants who need additional help.',
     image: '../../static/community/highres_450325919.jpeg',
   },
   {
     title: 'Startup Weekend EDU',
     url: '',
-    description: "Startup Weekend EDU was a weekend long event where participants pitch ideas, form teams, produce as much of a business plan and product as they can, and then present their startups at the end. This event was particularly special for me as it led to the creation of Little Bird. I went without an idea of my own, but I was immediatly drawn to Jill's. I was fortunante enough to join her team, along with some truely talented people. We were able to complete a lot of market and user reasearch, put together a strong business plan, and Caroline and I built a very basic texting chatbot. I learned a lot from the experience, both about development in a time crunch and about starting a business. Little Bird won first place at the event and we are continuing to build our way to product launch.",
+    description: "Startup Weekend EDU was a weekend long event where participants pitch ideas, form teams, produce as much of a business plan and product as they can, and then present their startups at the end. This event was particularly special for me as it led to the creation of Little Bird. I went without an idea of my own, but I was immediately drawn to Jill's. I was fortunate enough to join her team, along with some truly talented people. We were able to complete a lot of market and user research, put together a strong business plan, and Caroline and I built a very basic texting chatbot. I learned a lot from the experience, both about development in a time crunch and about starting a business. Little Bird won first place at the event and we are continuing to build our way to product launch.",
     image: '../../static/community/Screen Shot 2017-12-12 at 9.05.10 PM.png',
   },
   {
@@ -26,7 +26,7 @@ export default [
   {
     title: 'Startup Weekend Women Denver',
     url: 'http://communities.techstars.com/usa/denver/startup-weekend/12189',
-    description: 'Starup Weekend Women was a starup weekend in that it was a weekend long event where participants pitch ideas, form teams, produce as much of a business plan and product as they can, and then present their startups at the end. What was neat about this one is that it was all about female entrepreneurs. Some really great ideas came out of it, and I got to work on one for helping new entrepreneurs. It was a very tech heavy experience for me, but I got a good look at the business nameing process and some insight into trademarks and trade names. By the end, along with another developer, we had a full stack app that was a working prototype.',
+    description: 'Starup Weekend Women was a startup weekend in that it was a weekend long event where participants pitch ideas, form teams, produce as much of a business plan and product as they can, and then present their startups at the end. What was neat about this one is that it was all about female entrepreneurs. Some really great ideas came out of it, and I got to work on one for helping new entrepreneurs. It was a very tech heavy experience for me, but I got a good look at the business naming process and some insight into trademarks and trade names. By the end, along with another developer, we had a full stack app that was a working prototype.',
     image: '',
   },
 ];

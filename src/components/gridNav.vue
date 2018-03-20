@@ -10,7 +10,7 @@
           <span>Project Manager</span>
           <span>Educator</span>
           <span>Designer</span>
-          <span>Entrepreneur</span>
+          <span>Founder</span>
           </p>
         </div>
     </div>
