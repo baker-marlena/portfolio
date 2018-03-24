@@ -1,11 +1,9 @@
 <template>
   <div id="resume">
-    <gridNav></gridNav>
     <div class="download-wrapper">
       <h5><a class="link-color" href="../../static/Marlena-Baker-Resume.pdf" download="../../static/Marlena Baker Resume-site.pdf">Download Resume</a></h5>
     </div>
     <pdf class="bottom-space pdf-wrapper" src="../../static/Marlena-Baker-Resume.pdf"></pdf>
-    <footerBar></footerBar>
   </div>
 </template>
 <script>
@@ -40,6 +38,9 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+}
+.download-wrapper {
+  text-align: center;
 }
 .pdf-wrapper {
   width: 80%;

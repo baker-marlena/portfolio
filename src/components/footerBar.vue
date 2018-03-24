@@ -11,8 +11,11 @@ export default {
 <style scoped>
   #footerBar {
     height: 5vh;
-    margin: 10px 0 10px 0;
+    margin: 0 auto;
     color: #71D6E4;
     font-size: .7rem;
+    background-color: white;
+    width: 100%;
+    text-align: center;
   }
 </style>

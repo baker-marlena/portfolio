@@ -1,17 +1,8 @@
 <template>
-  <div id="projectCard">
-    <div class="projectImageWrapper">
-      <a :href="project.url" target="_blank"><img :src="project.logo_url" :alt="project.title" /></a>
-      <!-- <a :href="project.github_url" target="_blank">Github</a> -->
-    </div>
-
-    <div class="projectDescirptionWrapper">
-      <h3 class="projectTitle"><a :href="project.url" target="_blank">{{project.title}}</a></h3>
-      <small>{{project.tech}}</small>
-      <p>
-      {{project.description}}
-      </p>
-
+  <div id="projectCard" @click="openModal(projectData)">
+      <img :src="projectData.image" :alt="projectData.title" />
+      <a><h3 class="projectTitle">{{projectData.title}}</h3></a>
+      <small>{{projectData.tech}}</small>
     </div>
 </div>
 
@@ -24,53 +15,47 @@ export default {
   components: {
     project,
   },
-  props: ['projectData'],
-  data() {
-    return {
-      project:
-      { title: this.projectData.name,
-        description: this.projectData.description,
-        image_url: this.projectData.img_url,
-        logo_url: this.projectData.logo_url,
-        url: this.projectData.url,
-        tech: this.projectData.tech },
-    };
+  props: {
+    projectData: {
+      type: Object,
+      required: true,
+    },
+    openModal: {
+      type: Function,
+      required: true,
+    },
   },
-  // methods: {
-  //   listTechnology(array) {
-  //    return `<ul class="techList">${array.map(technology => {
-  //      return '<li>a</li>';
-  //    })}</ul>`;
-  //   },
-  // },
 };
 </script>
 <style scoped>
 #projectCard {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 15px;
-  border-top: 1px solid darkgrey;
-  border-radius: 5px;
-  border-bottom: 1px solid darkgrey;
-  border-left:5px double #1e9099;
-  border-right: 5px double #1e9099;
-  padding: 20px;
-  height: 100%;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
   /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3); */
 }
-.projectImageWrapper {
+a {
+  text-decoration-color: #b14280;
+  text-decoration-style: double;
+}
+.cardImageWrapper {
   min-height: 200px;
   max-height: 200px;
-}
-.projectDescirptionWrapper {
-
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
 }
 img {
-  max-height: 150px;
-  min-height: 100px;
+  margin: 0 auto 10px auto;
+  align-self: center;
+  width: auto;
+  height: 100px;
 }
-.projectTitle a {
+a {
+  text-decoration-color: #b14280;
+  text-decoration-style: double;
+}
+.projectTitle {
   color: #1e9099;
 }
 </style>

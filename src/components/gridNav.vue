@@ -16,7 +16,7 @@
     </div>
     <div class='icon-wrapper'>
       <ul class="icon-list-style">
-        <li><a href="mailto:baker.marlena@gmail.com"><i class="fas fa-3x fa-envelope"></i></a></li>
+        <li @click="openEmail"><a><i class="fas fa-3x fa-envelope"></i></a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/marlenabaker"><i class="fab fa-3x fa-linkedin-in"></i></a></li>
         <li><a target="_blank" href="https://github.com/baker-marlena"><i class="fab fa-3x fa-github"></i></a></li>
         <li><a target="_blank" href="https://twitter.com/marlena_baker2"><i class="fab fa-3x fa-twitter"></i></a></li>
@@ -53,6 +53,12 @@
 <script>
 export default {
   name: 'navigation',
+  props: {
+    openEmail: {
+      type: Function,
+      required: true,
+    },
+  },
   data() {
     return {
       hideLink: this.$route.name,
@@ -81,6 +87,7 @@ export default {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    text-align: center;
   }
   h1 {
     color: #b14280;
@@ -106,9 +113,11 @@ export default {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    padding: 0;
   }
   .nav-list-style {
     list-style:none;
+    text-align: center;
   }
   .nav-list-style li {
     display: inline-block;
