@@ -36,11 +36,10 @@ export default {
   computed: {
     /*eslint-disable*/
     displayProjects() {
-      console.log(this.search);
-      if (this.search) {
+        if (this.search) {
         let projectFilter = this.projects.filter(projectData => {
           let techFilter = projectData.tech.filter(tech => {
-            return tech.match(this.search)
+            return tech.toLowerCase().match(this.search.toLowerCase())
           })
           return techFilter.length > 0
         })
